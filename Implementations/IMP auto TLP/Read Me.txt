@@ -1,4 +1,4 @@
-I have added new implementation but they are not added to bash file, in order to peticipate the overal results in allresults.sh
+I have added new implementation but they are not added to bash file, in order to get the overal results in allresults.sh
 
 So, I should add the following Folders to bash file:
 
