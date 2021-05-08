@@ -1,0 +1,108 @@
+spliter
+Time: Sun Feb  4 03:25:49 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+SAD1, 128x128, 27352
+SAD1, 128x128, 412
+SAD2, 128x128, 900
+SAD3, 128x128, 444
+spliter
+Time: Sun Feb  4 03:26:06 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 128x128, 32318
+SAD1, 128x128, 880
+SAD2, 128x128, 806
+SAD3, 128x128, 414
+spliter
+Time: Sun Feb  4 03:26:22 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 128x128, 23700
+SAD1, 128x128, 2710
+SAD2, 128x128, 800
+SAD3, 128x128, 410
+spliter
+Time: Sun Feb  4 03:54:06 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+SAD1, 256x256, 109500
+SAD1, 256x256, 3572
+SAD2, 256x256, 4424
+SAD3, 256x256, 3244
+spliter
+Time: Sun Feb  4 03:54:22 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 256x256, 125432
+SAD1, 256x256, 3330
+SAD2, 256x256, 4724
+SAD3, 256x256, 3396
+spliter
+Time: Sun Feb  4 03:54:38 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 256x256, 88426
+SAD1, 256x256, 9564
+SAD2, 256x256, 5208
+SAD3, 256x256, 3280
+spliter
+Time: Sun Feb  4 04:22:23 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+SAD1, 512x512, 437966
+SAD1, 512x512, 20266
+SAD2, 512x512, 25990
+SAD3, 512x512, 19318
+spliter
+Time: Sun Feb  4 04:22:39 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 512x512, 494306
+SAD1, 512x512, 19490
+SAD2, 512x512, 26426
+SAD3, 512x512, 20150
+spliter
+Time: Sun Feb  4 04:22:55 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 512x512, 360156
+SAD1, 512x512, 45818
+SAD2, 512x512, 23078
+SAD3, 512x512, 20026
+spliter
+Time: Sun Feb  4 04:51:22 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+SAD1, 1024x1024, 1752010
+SAD1, 1024x1024, 84628
+SAD2, 1024x1024, 105184
+SAD3, 1024x1024, 82846
+spliter
+Time: Sun Feb  4 04:51:38 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 1024x1024, 1962004
+SAD1, 1024x1024, 83494
+SAD2, 1024x1024, 107448
+SAD3, 1024x1024, 83538
+spliter
+Time: Sun Feb  4 04:51:55 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 1024x1024, 1426344
+SAD1, 1024x1024, 182644
+SAD2, 1024x1024, 112302
+SAD3, 1024x1024, 84040

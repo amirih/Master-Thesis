@@ -1,0 +1,27 @@
+spliter
+Time: Sat Mar 10 18:26:04 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -xHOST
+-no-vec
+SSD1, 512x512, 292838
+SSD1, 512x512, 75628
+SSD2, 512x512, 54736
+SSD3, 512x512, 41922
+spliter
+Time: Sat Mar 10 18:26:35 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SSD1, 512x512, 396276
+SSD1, 512x512, 396276
+SSD2, 512x512, 54850
+SSD3, 512x512, 42054
+spliter
+Time: Sat Mar 10 18:27:07 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -march=native
+-fno-vectorize -fno-slp-vectorize
+SSD1, 512x512, 280684
+SSD1, 512x512, 70256
+SSD2, 512x512, 56710
+SSD3, 512x512, 41842

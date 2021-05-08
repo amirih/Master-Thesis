@@ -1,0 +1,90 @@
+spliter
+Time: Sun Feb  4 03:40:25 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -qopenmp -xHOST
+-no-vec
+SAD1, 128x128, 410
+spliter
+Time: Sun Feb  4 03:40:29 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 128x128, 32380
+spliter
+Time: Sun Feb  4 03:40:33 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 128x128, 22152
+spliter
+Time: Sun Feb  4 04:08:39 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -qopenmp -xHOST
+-no-vec
+SAD1, 256x256, 3618
+spliter
+Time: Sun Feb  4 04:08:43 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 256x256, 125378
+spliter
+Time: Sun Feb  4 04:08:47 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 256x256, 91460
+spliter
+Time: Sun Feb  4 04:36:59 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -qopenmp -xHOST
+-no-vec
+SAD1, 512x512, 20340
+spliter
+Time: Sun Feb  4 04:37:03 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 512x512, 494466
+spliter
+Time: Sun Feb  4 04:37:07 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 512x512, 373026
+spliter
+Time: Sun Feb  4 05:06:36 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -qopenmp -xHOST
+-no-vec
+SAD1, 1024x1024, 84700
+spliter
+Time: Sun Feb  4 05:06:40 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 1024x1024, 1962070
+spliter
+Time: Sun Feb  4 05:06:44 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 1024x1024, 1476144
+spliter
+Time: Fri Feb  9 23:29:38 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -qopenmp -xHOST
+-no-vec
+SAD1, 1024x1024, 500912
+spliter
+Time: Fri Feb  9 23:29:46 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SAD1, 1024x1024, 555996
+spliter
+Time: Fri Feb  9 23:29:54 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SAD1, 1024x1024, 1426980

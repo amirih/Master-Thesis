@@ -1,0 +1,27 @@
+spliter
+Time: Sat Mar 10 18:13:21 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -xHOST
+-no-vec
+MUL1, 512x512, 128960786
+MUL1, 512x512, 31804306
+MUL2, 512x512, 56305028
+MUL3, 512x512, 32457630
+spliter
+Time: Sat Mar 10 18:13:52 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1, 512x512, 154306280
+MUL1, 512x512, 154334162
+MUL2, 512x512, 56679072
+MUL3, 512x512, 33505988
+spliter
+Time: Sat Mar 10 18:14:24 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1, 512x512, 122819144
+MUL1, 512x512, 29023198
+MUL2, 512x512, 45581698
+MUL3, 512x512, 29295186

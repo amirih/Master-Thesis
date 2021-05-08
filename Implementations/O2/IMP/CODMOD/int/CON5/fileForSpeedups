@@ -1,0 +1,21 @@
+spliter
+Time: Sat Mar 10 18:28:26 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -xHOST
+-no-vec
+CONMOD51, 512x512, 5000178
+CONMOD51, 512x512, 2163148
+spliter
+Time: Sat Mar 10 18:28:42 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CONMOD51, 512x512, 5000604
+CONMOD51, 512x512, 5000524
+spliter
+Time: Sat Mar 10 18:28:58 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -march=native
+-fno-vectorize -fno-slp-vectorize
+CONMOD51, 512x512, 5336510
+CONMOD51, 512x512, 5337292

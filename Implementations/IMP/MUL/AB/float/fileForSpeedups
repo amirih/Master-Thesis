@@ -1,0 +1,96 @@
+spliter
+Time: Sun Feb  4 03:19:29 +0330 2018
+icc
+-D _GNU_SOURCE -Ofast -xHOST
+-no-vec
+MUL1F, 128x128, 2122052
+MUL1F, 128x128, 1656746
+MUL3ABFG, 128x128, 3509158
+spliter
+Time: Sun Feb  4 03:19:41 +0330 2018
+gcc
+-D _GNU_SOURCE -Ofast -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1F, 128x128, 5072380
+MUL1F, 128x128, 632482
+MUL3ABFG, 128x128, 3416336
+spliter
+Time: Sun Feb  4 03:19:53 +0330 2018
+clang
+-D _GNU_SOURCE -Ofast -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1F, 128x128, 4910564
+MUL1F, 128x128, 3340156
+MUL3ABFG, 128x128, 3548796
+spliter
+Time: Sun Feb  4 03:47:45 +0330 2018
+icc
+-D _GNU_SOURCE -Ofast -xHOST
+-no-vec
+MUL1F, 256x256, 25223130
+MUL1F, 256x256, 20695600
+MUL3ABFG, 256x256, 43164374
+spliter
+Time: Sun Feb  4 03:47:57 +0330 2018
+gcc
+-D _GNU_SOURCE -Ofast -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1F, 256x256, 47303342
+MUL1F, 256x256, 5973216
+MUL3ABFG, 256x256, 37098288
+spliter
+Time: Sun Feb  4 03:48:10 +0330 2018
+clang
+-D _GNU_SOURCE -Ofast -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1F, 256x256, 47455520
+MUL1F, 256x256, 41868352
+MUL3ABFG, 256x256, 44924270
+spliter
+Time: Sun Feb  4 04:16:01 +0330 2018
+icc
+-D _GNU_SOURCE -Ofast -xHOST
+-no-vec
+MUL1F, 512x512, 287554182
+MUL1F, 512x512, 282315494
+MUL3ABFG, 512x512, 568239746
+spliter
+Time: Sun Feb  4 04:16:13 +0330 2018
+gcc
+-D _GNU_SOURCE -Ofast -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1F, 512x512, 569121928
+MUL1F, 512x512, 70749666
+MUL3ABFG, 512x512, 569923488
+spliter
+Time: Sun Feb  4 04:16:25 +0330 2018
+clang
+-D _GNU_SOURCE -Ofast -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1F, 512x512, 568158624
+MUL1F, 512x512, 569328964
+MUL3ABFG, 512x512, 570642998
+spliter
+Time: Sun Feb  4 04:44:39 +0330 2018
+icc
+-D _GNU_SOURCE -Ofast -xHOST
+-no-vec
+MUL1F, 1024x1024, 4153243654
+MUL1F, 1024x1024, 4307198748
+MUL3ABFG, 1024x1024, 6311158322
+spliter
+Time: Sun Feb  4 04:44:55 +0330 2018
+gcc
+-D _GNU_SOURCE -Ofast -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1F, 1024x1024, 7038807870
+MUL1F, 1024x1024, 971937842
+MUL3ABFG, 1024x1024, 9424022158
+spliter
+Time: Sun Feb  4 04:45:13 +0330 2018
+clang
+-D _GNU_SOURCE -Ofast -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1F, 1024x1024, 8970427058
+MUL1F, 1024x1024, 7131082152
+MUL3ABFG, 1024x1024, 8135103430

@@ -1,0 +1,2826 @@
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/ADD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23836 in 75th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 7426 in 60th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 9076 in 3th iteration and 100 repetitions
+ The best time: repetition for 128X128 matrix , result is 192 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 6722 in 86th iteration and 100 repetitions
+ The best t for 128X128 matrix , result is 192 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 21754 in 60th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 7354 in 1th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 8864 in 71th iteration and 100 repetitions
+ The best time: repetition for 128X128 matrix , result is 192 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 6978 in 17th iteration and 100 repetitions
+ The best t for 128X128 matrix , result is 192 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 19742 in 18th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 6332 in 2th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 10658 in 2th iteration and 100 repetitions
+ The best time: repetition for 128X128 matrix , result is 192 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 6734 in 15th iteration and 100 repetitions
+ The best t for 128X128 matrix , result is 192 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/ADD/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 24978 in 42th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 8212 in 52th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 9230 in 42th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 8088 in 69th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 27704 in 36th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 7852 in 1th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 8914 in 67th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 7196 in 95th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 19902 in 82th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 6880 in 36th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 8628 in 27th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 7744 in 66th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/TRA/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 31696 in 6th iteration and 100 repetitions
+96
+******************************
+Out put for IMP1 CAV:
+
+the best is 31580 in 23th iteration and 100 repetitions
+96
+******************************
+Out put for IMP2 SSE2:
+
+the best is 24268 in 8th iteration and 100 repetitions
+96
+******************************
+Out put for IMP3 AVX2:
+
+the best is 13644 in 71th iteration and 100 repetitions
+96
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 73940 in 58th iteration and 100 repetitions
+96
+******************************
+Out put for IMP1 CAV:
+
+the best is 100106 in 99th iteration and 100 repetitions
+96
+******************************
+Out put for IMP2 SSE2:
+
+the best is 20770 in 5th iteration and 100 repetitions
+96
+******************************
+Out put for IMP3 AVX2:
+
+the best is 11724 in 4th iteration and 100 repetitions
+96
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 111210 in 21th iteration and 100 repetitions
+96
+******************************
+Out put for IMP1 CAV:
+
+the best is 95566 in 53th iteration and 100 repetitions
+96
+******************************
+Out put for IMP2 SSE2:
+
+the best is 19928 in 30th iteration and 100 repetitions
+96
+******************************
+Out put for IMP3 AVX2:
+
+the best is 12800 in 32th iteration and 100 repetitions
+96
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/TRA/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 34236 in 1th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP1 CAV:
+
+the best is 37080 in 3th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP2 SSE2:
+
+the best is 26522 in 58th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP3 AVX2:
+
+the best is 10888 in 65th iteration and 100 repetitions
+96.123001
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 89352 in 8th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP1 CAV:
+
+the best is 97788 in 33th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP2 SSE2:
+
+the best is 29562 in 21th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP3 AVX2:
+
+the best is 12454 in 87th iteration and 100 repetitions
+96.123001
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 104918 in 70th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP1 CAV:
+
+the best is 109184 in 90th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP2 SSE2:
+
+the best is 19602 in 32th iteration and 100 repetitions
+96.123001
+******************************
+Out put for IMP3 AVX2:
+
+the best is 13194 in 85th iteration and 100 repetitions
+96.123001
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/MUL/AB/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2819486 in 28th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 2205384 in 97th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 5094770 in 12th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4914556 in 19th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 595854 in 77th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 4571598 in 56th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4688192 in 53th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 5147010 in 30th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 5484542 in 0th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/MUL/AB/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2541206 in 32th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 2421238 in 60th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 4522362 in 61th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5510810 in 49th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 678094 in 89th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 4622032 in 72th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5506174 in 44th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 4419014 in 53th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 4493446 in 0th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/MUL/ABt/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1733780 in 4th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 545438 in 96th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 891090 in 68th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 363070 in 31th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2798166 in 88th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 478128 in 99th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 893250 in 55th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 402020 in 78th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1940738 in 93th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 541144 in 87th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 788860 in 9th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 453630 in 84th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/MUL/ABt/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1853864 in 86th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 387902 in 92th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 1311556 in 99th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 393052 in 83th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6607938 in 90th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 492418 in 31th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 950656 in 97th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 415992 in 50th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5284116 in 89th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 420690 in 39th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 1012652 in 99th iteration and 100 repetitions
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 444400 in 8th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CON3/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 154916 in 82th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 65712 in 3th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 12540 in 74th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 142658 in 92th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 79218 in 22th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 13138 in 4th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 162430 in 70th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 174402 in 14th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 10466 in 76th iteration and 100 repetitions
+
+The input[64][64] =  138 
+
+The output[64][64] =  140 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CON5/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 410420 in 68th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 321748 in 53th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 29640 in 3th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 387132 in 90th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 209860 in 96th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 29416 in 72th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 349998 in 82th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 96002 in 53th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 35146 in 84th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CON7/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 729238 in 94th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 626978 in 1th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 59444 in 76th iteration and 100 repetitions
+
+The  141 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1119508 in 99th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 1127510 in 25th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 55486 in 67th iteration and 100 repetitions
+
+The  141 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 680580 in 42th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 580650 in 96th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 61078 in 72th iteration and 100 repetitions
+
+The  141 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CON9/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 934932 in 18th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 812872 in 99th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 82288 in 59th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1624322 in 85th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 1601828 in 78th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 79864 in 99th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1021292 in 23th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 717658 in 77th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP2 AVX2:
+
+the best is 105674 in 84th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CONREPCOEF
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CONREPCOEF/CON3/int
+
+*****************************************ICC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 17318 in 75th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************GCC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 20894 in 65th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************LLVM*****************************************
+Out put for IMP2 AVX2:
+
+the best is 17584 in 10th iteration and 100 repetitions
+
+The output[64][64] =  140 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CONREPCOEF/CON5/int
+
+*****************************************ICC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 44002 in 76th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************GCC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 37380 in 61th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************LLVM*****************************************
+Out put for IMP2 AVX2:
+
+the best is 39206 in 9th iteration and 100 repetitions
+
+The output[64][64] =  140 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CONREPCOEF/CON7/int
+
+*****************************************ICC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 83308 in 29th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************GCC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 73904 in 81th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************LLVM*****************************************
+Out put for IMP2 AVX2:
+
+the best is 85588 in 46th iteration and 100 repetitions
+
+The output[64][64] =  140 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CON/CONREPCOEF/CON9/int
+
+*****************************************ICC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 202726 in 29th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************GCC*****************************************
+Out put for IMP2 AVX2:
+
+the best is 296890 in 70th iteration and 100 repetitions
+
+The output[64][64] =  140 
+
+*****************************************LLVM*****************************************
+Out put for IMP2 AVX2:
+
+the best is 277460 in 78th iteration and 100 repetitions
+
+The output[64][64] =  140 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/FIR/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 108222 in 12th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 81644 in 31th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 36192 in 1th iteration and 100 repetitions
+19332
+******************************
+Out put for IMP3 AVX2:
+
+the best is 20258 in 4th iteration and 100 repetitions
+19332
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 103186 in 35th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 33592 in 21th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 29600 in 50th iteration and 100 repetitions
+19332
+******************************
+Out put for IMP3 AVX2:
+
+the best is 18250 in 39th iteration and 100 repetitions
+19332
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 103192 in 83th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 103202 in 91th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 30312 in 57th iteration and 100 repetitions
+19332
+******************************
+Out put for IMP3 AVX2:
+
+the best is 18922 in 88th iteration and 100 repetitions
+19332
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/SAD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 29034 in 26th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 450 in 51th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 1102 in 80th iteration and 100 repetitions
+101616 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 522 in 2th iteration and 100 repetitions
+75916 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 34410 in 8th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 996 in 7th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 864 in 75th iteration and 100 repetitions
+101616 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 508 in 12th iteration and 100 repetitions
+75916 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 26860 in 28th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 2914 in 55th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 SSE2:
+
+the best is 864 in 77th iteration and 100 repetitions
+101616 
+
+******************************
+Out put for IMP3 AVX2:
+
+the best is 504 in 47th iteration and 100 repetitions
+75916 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/SSD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 20446 in 18th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP1 CAV:
+
+the best is 5198 in 2th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP2 SSE2:
+
+the best is 3762 in 58th iteration and 100 repetitions
+282040
+******************************
+Out put for IMP3 AVX2:
+
+the best is 1862 in 6th iteration and 100 repetitions
+ The best time repetition for 128X result is 609720
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 28650 in 78th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP1 CAV:
+
+the best is 5514 in 9th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP2 SSE2:
+
+the best is 2560 in 91th iteration and 100 repetitions
+282040
+******************************
+Out put for IMP3 AVX2:
+
+the best is 1844 in 20th iteration and 100 repetitions
+ The best time repetition for 128X result is 609720
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 22230 in 32th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP1 CAV:
+
+the best is 6140 in 21th iteration and 100 repetitions
+27151800
+******************************
+Out put for IMP2 SSE2:
+
+the best is 2402 in 13th iteration and 100 repetitions
+282040
+******************************
+Out put for IMP3 AVX2:
+
+the best is 2328 in 73th iteration and 100 repetitions
+ The best time repetition for 128X result is 609720
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/CON3
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 149570 in 94th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 62680 in 60th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 127154 in 48th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 67016 in 44th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 156216 in 99th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 161102 in 94th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/CON5
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 299370 in 76th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 148130 in 98th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 323798 in 63th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 167146 in 21th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 319114 in 61th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 319126 in 13th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/CON7
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 575948 in 32th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 263212 in 33th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 900032 in 99th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 358672 in 88th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 562502 in 40th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 151922 in 55th iteration and 100 repetitions
+
+The  2 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/CON9
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 917784 in 1th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 569370 in 25th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1685872 in 0th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 579024 in 71th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 900252 in 18th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 221784 in 34th iteration and 100 repetitions
+
+The  140 X matrix 
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/FIR
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 103188 in 95th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 28476 in 86th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 103194 in 37th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 CAV:
+
+the best is 70120 in 5th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 97292 in 23th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 29100 in 94th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 97308 in 19th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 CAV:
+
+the best is 76974 in 8th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 103198 in 53th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 103204 in 72th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 97360 in 83th iteration and 100 repetitions
+
+******************************
+Out put for IMP2 CAV:
+
+the best is 63084 in 93th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/IMP/CODMOD/int/TRA
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 17420 in 34th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 17234 in 46th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 33130 in 20th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP2 CAV:
+
+the best is 39942 in 15th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP3 scalar:
+
+the best is 19018 in 60th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP3 CAV:
+
+the best is 9792 in 81th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP4 scalar:
+
+the best is 34166 in 8th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP4 CAV:
+
+the best is 31906 in 11th iteration and 100 repetitions
+
+******************************
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 18442 in 99th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 19474 in 10th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 88822 in 31th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP2 CAV:
+
+the best is 44674 in 97th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP3 scalar:
+
+the best is 19928 in 12th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP3 CAV:
+
+the best is 20624 in 71th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP4 scalar:
+
+the best is 32250 in 56th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP4 CAV:
+
+the best is 25928 in 88th iteration and 100 repetitions
+
+******************************
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 17402 in 56th iteration and 100 repetitions
+
+******************************
+Out put for IMP1 CAV:
+
+the best is 17438 in 5th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP2 scalar:
+
+the best is 87612 in 90th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP2 CAV:
+
+the best is 88728 in 66th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP3 scalar:
+
+the best is 16140 in 65th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP3 CAV:
+
+the best is 14800 in 3th iteration and 100 repetitions
+
+******************************
+
+Out put for IMP4 scalar:
+
+the best is 33128 in 1th iteration and 100 repetitions
+
+******************************
+******************************
+Out put for IMP4 CAV:
+
+the best is 31560 in 5th iteration and 100 repetitions
+
+******************************
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/ADD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 7384 in 99th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 19222 in 63th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 24586 in 92th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/ADD/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6346 in 51th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23460 in 83th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 19384 in 48th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/TRA/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 12088 in 48th iteration and 100 repetitions
+96
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 95004 in 1th iteration and 100 repetitions
+96
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 82830 in 56th iteration and 100 repetitions
+96/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/TRA/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 10796 in 99th iteration and 100 repetitions
+96.123001
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 98814 in 34th iteration and 100 repetitions
+96.123001
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 76808 in 2th iteration and 100 repetitions
+96.123001/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/MUL/AB/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1243240 in 57th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5004712 in 0th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4633982 in 77th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/MUL/AB/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1210464 in 33th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5472858 in 88th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5335182 in 32th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/MUL/ABt/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1224014 in 11th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2823284 in 70th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1965118 in 42th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/MUL/ABt/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1164582 in 80th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5550142 in 82th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5234558 in 81th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/CON/CON3/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 133232 in 82th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 286778 in 98th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 142688 in 54th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/CON/CON5/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 306776 in 85th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 631310 in 6th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 317954 in 40th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/CON/CON7/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 524142 in 96th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1245244 in 76th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 667628 in 70th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/CON/CON9/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 823298 in 87th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1551644 in 14th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1021724 in 46th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/FIR/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 34634 in 99th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 148652 in 13th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 113496 in 98th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/SAD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 446 in 65th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 47310 in 47th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 24246 in 53th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-first loop/IMP/SSD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6066 in 44th iteration and 100 repetitions
+27151800
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 27898 in 2th iteration and 100 repetitions
+27151800
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 22312 in 99th iteration and 100 repetitions
+27151800/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/ADD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6210 in 23th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23250 in 99th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 21364 in 55th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/ADD/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 7662 in 87th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 20004 in 15th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 21292 in 4th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/TRA/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 71912 in 65th iteration and 100 repetitions
+96
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 106152 in 2th iteration and 100 repetitions
+96
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 94514 in 3th iteration and 100 repetitions
+96/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/TRA/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 110034 in 71th iteration and 100 repetitions
+96.123001
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 93904 in 59th iteration and 100 repetitions
+96.123001
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 74268 in 84th iteration and 100 repetitions
+96.123001/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/MUL/AB/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4162808 in 9th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4855862 in 16th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4742710 in 94th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/MUL/AB/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4482010 in 15th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5455444 in 23th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5653776 in 17th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/MUL/ABt/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 566490 in 81th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2859822 in 43th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1951380 in 64th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/MUL/ABt/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 503148 in 96th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5441872 in 30th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5301784 in 85th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/CON/CON3/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 126582 in 19th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 148502 in 65th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 162386 in 86th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/CON/CON5/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 367136 in 99th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 386840 in 97th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 317986 in 43th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/CON/CON7/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 641888 in 73th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 916854 in 44th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 729748 in 52th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/CON/CON9/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 653380 in 98th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1618314 in 90th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1250750 in 68th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/FIR/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 94200 in 31th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 126108 in 44th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 121624 in 27th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/SAD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 474 in 96th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 35508 in 52th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23518 in 47th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/O2/OpenMP-SIMD-inner loop/IMP/SSD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5116 in 25th iteration and 100 repetitions
+27151800
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 29688 in 64th iteration and 100 repetitions
+27151800
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23546 in 69th iteration and 100 repetitions
+27151800/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/ADD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 7344 in 56th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 21804 in 88th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 22238 in 42th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/ADD/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 8250 in 65th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 19988 in 91th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23640 in 57th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/TRA/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 9846 in 69th iteration and 100 repetitions
+96
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 111802 in 3th iteration and 100 repetitions
+96
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 95362 in 63th iteration and 100 repetitions
+96/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/TRA/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 13224 in 85th iteration and 100 repetitions
+96.123001
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 79328 in 1th iteration and 100 repetitions
+96.123001
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 102832 in 73th iteration and 100 repetitions
+96.123001/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/MUL/AB/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 780660 in 98th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4683396 in 74th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4363082 in 75th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/MUL/AB/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 812366 in 95th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5490512 in 20th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5831774 in 82th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/MUL/ABt/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 887900 in 79th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2927870 in 95th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1990522 in 72th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/MUL/ABt/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 918860 in 97th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5440970 in 27th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5280220 in 99th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/CON/CON3/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 156962 in 41th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 153330 in 3th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 174464 in 96th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/CON/CON5/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 267296 in 73th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 444102 in 34th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 388764 in 14th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/CON/CON7/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 536732 in 93th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 914458 in 93th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 618804 in 96th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/CON/CON9/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 951346 in 64th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1620140 in 62th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1252008 in 31th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/FIR/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 37814 in 2th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 131092 in 99th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 103256 in 9th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/SAD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 548 in 86th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 42056 in 75th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 32338 in 35th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-first loop/IMP/SSD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6272 in 38th iteration and 100 repetitions
+27151800
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 34120 in 52th iteration and 100 repetitions
+27151800
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23050 in 87th iteration and 100 repetitions
+27151800/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/ADD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 8120 in 99th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 22270 in 3th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23932 in 81th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/ADD/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 6300 in 19th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 23336 in 9th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 24018 in 58th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/TRA/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 122704 in 81th iteration and 100 repetitions
+96
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 89250 in 5th iteration and 100 repetitions
+96
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 114210 in 20th iteration and 100 repetitions
+96/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/TRA/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 106796 in 41th iteration and 100 repetitions
+96.123001
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 96778 in 85th iteration and 100 repetitions
+96.123001
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 94228 in 95th iteration and 100 repetitions
+96.123001/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/MUL/AB/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4057876 in 38th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4523028 in 47th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5212964 in 61th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/MUL/AB/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 4277502 in 84th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5445424 in 50th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5728126 in 31th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/MUL/ABt/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 495248 in 98th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 2817096 in 54th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1988792 in 44th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/MUL/ABt/float
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 435822 in 8th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5394746 in 58th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5179796 in 35th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/CON/CON3/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 160786 in 27th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 142764 in 86th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 162414 in 92th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/CON/CON5/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 332424 in 52th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 363136 in 46th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 361926 in 31th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/CON/CON7/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 583420 in 9th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1010772 in 53th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 659930 in 83th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/CON/CON9/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 650162 in 5th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1624280 in 78th iteration and 100 repetitions
+
+The  140 X matrix 
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1023282 in 87th iteration and 100 repetitions
+
+The  140 X matrix 
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/FIR/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 94968 in 99th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 126168 in 10th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 126140 in 15th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/SAD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 1294 in 27th iteration and 100 repetitions
+
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 42054 in 48th iteration and 100 repetitions
+
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 33740 in 13th iteration and 100 repetitions
+/home/martin/Desktop/Come with me/I am organized here/002 - My thesisi/Implementations/OpenMP-SIMD-inner loop/IMP/SSD/int
+
+*****************************************ICC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 5120 in 39th iteration and 100 repetitions
+27151800
+*****************************************GCC*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 27906 in 91th iteration and 100 repetitions
+27151800
+*****************************************LLVM*****************************************
+
+Out put for IMP1 scalar:
+
+the best is 17832 in 4th iteration and 100 repetitions
+27151800

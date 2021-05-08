@@ -1,0 +1,153 @@
+# mark_description "Intel(R) C Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.1.163 Build 20171018";
+# mark_description "-D _GNU_SOURCE -O3 -march=native -c -S -o IMP3vec1icc";
+	.file "IMP3.c"
+	.text
+..TXTST0:
+.L_2__routine_start_main_0:
+# -- Begin  main
+	.text
+# mark_begin;
+       .align    16,0x90
+	.globl main
+# --- main()
+main:
+..B1.1:                         # Preds ..B1.0
+                                # Execution count [1.00e+00]
+	.cfi_startproc
+..___tag_value_main.1:
+..L2:
+                                                          #26.1
+        pushq     %rbp                                          #26.1
+	.cfi_def_cfa_offset 16
+        movq      %rsp, %rbp                                    #26.1
+	.cfi_def_cfa 6, 16
+	.cfi_offset 6, -16
+        andq      $-128, %rsp                                   #26.1
+        subq      $128, %rsp                                    #26.1
+        xorl      %esi, %esi                                    #26.1
+        movl      $3, %edi                                      #26.1
+        call      __intel_new_feature_proc_init                 #26.1
+                                # LOE rbx r12 r13 r14 r15
+..B1.10:                        # Preds ..B1.1
+                                # Execution count [1.00e+00]
+        vstmxcsr  (%rsp)                                        #26.1
+        orl       $32832, (%rsp)                                #26.1
+        vldmxcsr  (%rsp)                                        #26.1
+        vmovups   vindexm.235.0.0.1(%rip), %ymm3                #34.18
+                                # LOE rbx r12 r13 r14 r15 ymm3
+..B1.2:                         # Preds ..B1.10
+                                # Execution count [1.00e+00]
+        xorl      %edx, %edx                                    #42.7
+        vpcmpeqd  %ymm1, %ymm1, %ymm1                           #53.12
+        xorl      %eax, %eax                                    #42.7
+                                # LOE rax rdx rbx r12 r13 r14 r15 ymm1 ymm3
+..B1.3:                         # Preds ..B1.5 ..B1.2
+                                # Execution count [1.60e+01]
+        xorl      %esi, %esi                                    #47.8
+        lea       (,%rdx,4), %rcx                               #63.22
+                                # LOE rax rdx rcx rbx rsi r12 r13 r14 r15 ymm1 ymm3
+..B1.4:                         # Preds ..B1.4 ..B1.3
+                                # Execution count [2.56e+02]
+        vmovdqa   %ymm1, %ymm4                                  #53.12
+        lea       (%rax,%rsi,4), %rdi                           #53.34
+        vxorps    %ymm2, %ymm2, %ymm2                           #53.12
+        addq      $8, %rsi                                      #47.22
+        vxorps    %ymm0, %ymm0, %ymm0                           #54.12
+        vmovdqa   %ymm1, %ymm5                                  #54.12
+        vgatherdps %ymm4, a(%rdi,%ymm3,4), %ymm2                #53.12
+        vgatherdps %ymm5, 4+a(%rdi,%ymm3,4), %ymm0              #54.12
+        vmovups   %ymm2, a_tra(%rcx)                            #63.22
+        vmovups   %ymm0, 512+a_tra(%rcx)                        #64.22
+        vxorps    %ymm12, %ymm12, %ymm12                        #55.12
+        vmovdqa   %ymm1, %ymm6                                  #55.12
+        vxorps    %ymm13, %ymm13, %ymm13                        #56.12
+        vmovdqa   %ymm1, %ymm7                                  #56.12
+        vxorps    %ymm14, %ymm14, %ymm14                        #57.12
+        vmovdqa   %ymm1, %ymm8                                  #57.12
+        vxorps    %ymm15, %ymm15, %ymm15                        #58.12
+        vmovdqa   %ymm1, %ymm9                                  #58.12
+        vxorps    %ymm4, %ymm4, %ymm4                           #59.12
+        vmovdqa   %ymm1, %ymm10                                 #59.12
+        vxorps    %ymm5, %ymm5, %ymm5                           #60.12
+        vmovdqa   %ymm1, %ymm11                                 #60.12
+        vgatherdps %ymm6, 8+a(%rdi,%ymm3,4), %ymm12             #55.12
+        vgatherdps %ymm7, 12+a(%rdi,%ymm3,4), %ymm13            #56.12
+        vgatherdps %ymm8, 16+a(%rdi,%ymm3,4), %ymm14            #57.12
+        vgatherdps %ymm9, 20+a(%rdi,%ymm3,4), %ymm15            #58.12
+        vgatherdps %ymm10, 24+a(%rdi,%ymm3,4), %ymm4            #59.12
+        vgatherdps %ymm11, 28+a(%rdi,%ymm3,4), %ymm5            #60.12
+        vmovups   %ymm12, 1024+a_tra(%rcx)                      #65.22
+        vmovups   %ymm13, 1536+a_tra(%rcx)                      #66.22
+        vmovups   %ymm14, 2048+a_tra(%rcx)                      #67.22
+        vmovups   %ymm15, 2560+a_tra(%rcx)                      #68.22
+        vmovups   %ymm4, 3072+a_tra(%rcx)                       #69.22
+        vmovups   %ymm5, 3584+a_tra(%rcx)                       #70.22
+        addq      $4096, %rcx                                   #47.22
+        cmpq      $128, %rsi                                    #47.15
+        jl        ..B1.4        # Prob 93%                      #47.15
+                                # LOE rax rdx rcx rbx rsi r12 r13 r14 r15 ymm1 ymm3
+..B1.5:                         # Preds ..B1.4
+                                # Execution count [1.60e+01]
+        addq      $8, %rdx                                      #42.21
+        addq      $4096, %rax                                   #42.21
+        cmpq      $128, %rdx                                    #42.14
+        jl        ..B1.3        # Prob 93%                      #42.14
+                                # LOE rax rdx rbx r12 r13 r14 r15 ymm1 ymm3
+..B1.6:                         # Preds ..B1.5
+                                # Execution count [1.00e+00]
+        vxorpd    %xmm0, %xmm0, %xmm0                           #84.4
+        movl      $.L_2__STRING.0, %edi                         #84.4
+        movl      $1, %eax                                      #84.4
+        vcvtss2sd 33024+a_tra(%rip), %xmm0, %xmm0               #84.4
+        vzeroupper                                              #84.4
+..___tag_value_main.6:
+#       printf(const char *__restrict__, ...)
+        call      printf                                        #84.4
+..___tag_value_main.7:
+                                # LOE rbx r12 r13 r14 r15
+..B1.7:                         # Preds ..B1.6
+                                # Execution count [1.00e+00]
+        xorl      %eax, %eax                                    #86.9
+        movq      %rbp, %rsp                                    #86.9
+        popq      %rbp                                          #86.9
+	.cfi_def_cfa 7, 8
+	.cfi_restore 6
+        ret                                                     #86.9
+        .align    16,0x90
+                                # LOE
+	.cfi_endproc
+# mark_end;
+	.type	main,@function
+	.size	main,.-main
+..LNmain.0:
+	.section .rodata, "a"
+	.align 32
+	.align 32
+vindexm.235.0.0.1:
+	.long	0
+	.long	128
+	.long	256
+	.long	384
+	.long	512
+	.long	640
+	.long	768
+	.long	896
+	.data
+# -- End  main
+	.section .rodata.str1.4, "aMS",@progbits,1
+	.align 4
+	.align 4
+.L_2__STRING.0:
+	.word	26149
+	.byte	0
+	.type	.L_2__STRING.0,@object
+	.size	.L_2__STRING.0,3
+	.data
+	.comm a_tra,65536,32
+	.comm a,65536,32
+	.section .note.GNU-stack, ""
+// -- Begin DWARF2 SEGMENT .eh_frame
+	.section .eh_frame,"a",@progbits
+.eh_frame_seg:
+	.align 8
+# End

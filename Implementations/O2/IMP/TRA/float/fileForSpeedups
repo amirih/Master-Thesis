@@ -1,0 +1,27 @@
+spliter
+Time: Sat Mar 10 18:09:21 +0330 2018
+icc
+-D _GNU_SOURCE -Ofast -xHOST
+-no-vec
+TRA1F, 512x512, 1051226
+TRA1F, 512x512, 1082860
+TRA2F, 512x512, 618368
+TRA3FG, 512x512, 316072
+spliter
+Time: Sat Mar 10 18:09:53 +0330 2018
+gcc
+-D _GNU_SOURCE -Ofast -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+TRA1F, 512x512, 2475538
+TRA1F, 512x512, 2448424
+TRA2F, 512x512, 617440
+TRA3FG, 512x512, 316340
+spliter
+Time: Sat Mar 10 18:10:24 +0330 2018
+clang
+-D _GNU_SOURCE -Ofast -march=native
+-fno-vectorize -fno-slp-vectorize
+TRA1F, 512x512, 2484414
+TRA1F, 512x512, 2480844
+TRA2F, 512x512, 617644
+TRA3FG, 512x512, 316376

@@ -1,0 +1,72 @@
+spliter
+Time: Sun Feb  4 03:34:29 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -qopenmp -xHOST
+-no-vec
+SSD1, 128x128, 4652
+spliter
+Time: Sun Feb  4 03:34:33 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SSD1, 128x128, 26294
+spliter
+Time: Sun Feb  4 03:34:37 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SSD1, 128x128, 17586
+spliter
+Time: Sun Feb  4 04:02:43 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -qopenmp -xHOST
+-no-vec
+SSD1, 256x256, 18698
+spliter
+Time: Sun Feb  4 04:02:47 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SSD1, 256x256, 101376
+spliter
+Time: Sun Feb  4 04:02:51 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SSD1, 256x256, 70410
+spliter
+Time: Sun Feb  4 04:31:01 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -qopenmp -xHOST
+-no-vec
+SSD1, 512x512, 75684
+spliter
+Time: Sun Feb  4 04:31:05 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SSD1, 512x512, 397556
+spliter
+Time: Sun Feb  4 04:31:09 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SSD1, 512x512, 280274
+spliter
+Time: Sun Feb  4 05:00:12 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -qopenmp -xHOST
+-no-vec
+SSD1, 1024x1024, 311040
+spliter
+Time: Sun Feb  4 05:00:16 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -fopenmp -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+SSD1, 1024x1024, 1574046
+spliter
+Time: Sun Feb  4 05:00:21 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -fopenmp=libgomp -march=native
+-fno-vectorize -fno-slp-vectorize
+SSD1, 1024x1024, 1126960

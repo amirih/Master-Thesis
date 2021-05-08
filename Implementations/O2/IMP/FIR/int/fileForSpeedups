@@ -1,0 +1,27 @@
+spliter
+Time: Sat Mar 10 18:22:53 +0330 2018
+icc
+-D _GNU_SOURCE -O2 -xHOST
+-no-vec
+FIR1, 512x512, 1556756
+FIR1, 512x512, 1556756
+FIR2, 512x512, 477688
+FIR3, 512x512, 246144
+spliter
+Time: Sat Mar 10 18:23:24 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+FIR1, 512x512, 3312058
+FIR1, 512x512, 3312016
+FIR2, 512x512, 875846
+FIR3, 512x512, 431764
+spliter
+Time: Sat Mar 10 18:23:56 +0330 2018
+clang
+-D _GNU_SOURCE -O2 -march=native
+-fno-vectorize -fno-slp-vectorize
+FIR1, 512x512, 1556752
+FIR1, 512x512, 1556736
+FIR2, 512x512, 448598
+FIR3, 512x512, 243074

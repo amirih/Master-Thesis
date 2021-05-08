@@ -1,0 +1,96 @@
+spliter
+Time: Sun Feb  4 03:18:52 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+MUL1, 128x128, 2111288
+MUL1, 128x128, 1759332
+MUL3ABG, 128x128, 3463742
+spliter
+Time: Sun Feb  4 03:19:04 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1, 128x128, 3467560
+MUL1, 128x128, 507340
+MUL3ABG, 128x128, 3437668
+spliter
+Time: Sun Feb  4 03:19:17 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1, 128x128, 3214844
+MUL1, 128x128, 3429644
+MUL3ABG, 128x128, 3442438
+spliter
+Time: Sun Feb  4 03:47:09 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+MUL1, 256x256, 28377648
+MUL1, 256x256, 22513158
+MUL3ABG, 256x256, 44400268
+spliter
+Time: Sun Feb  4 03:47:21 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1, 256x256, 47472666
+MUL1, 256x256, 6138504
+MUL3ABG, 256x256, 43886226
+spliter
+Time: Sun Feb  4 03:47:33 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1, 256x256, 47630910
+MUL1, 256x256, 41934614
+MUL3ABG, 256x256, 46705122
+spliter
+Time: Sun Feb  4 04:15:23 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+MUL1, 512x512, 291626308
+MUL1, 512x512, 284163954
+MUL3ABG, 512x512, 569953596
+spliter
+Time: Sun Feb  4 04:15:35 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1, 512x512, 568357280
+MUL1, 512x512, 70578500
+MUL3ABG, 512x512, 569932766
+spliter
+Time: Sun Feb  4 04:15:48 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1, 512x512, 568026354
+MUL1, 512x512, 568655620
+MUL3ABG, 512x512, 569073378
+spliter
+Time: Sun Feb  4 04:43:44 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+MUL1, 1024x1024, 5345211004
+MUL1, 1024x1024, 4314293508
+MUL3ABG, 1024x1024, 7983983254
+spliter
+Time: Sun Feb  4 04:44:01 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+MUL1, 1024x1024, 8292800206
+MUL1, 1024x1024, 1102426258
+MUL3ABG, 1024x1024, 8610318926
+spliter
+Time: Sun Feb  4 04:44:19 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+MUL1, 1024x1024, 8046206064
+MUL1, 1024x1024, 9229967884
+MUL3ABG, 1024x1024, 7379928278

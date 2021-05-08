@@ -1,0 +1,84 @@
+spliter
+Time: Sun Feb  4 03:27:28 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+CONMOD31, 128x128, 119350
+CONMOD31, 128x128, 55482
+spliter
+Time: Sun Feb  4 03:27:36 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CONMOD31, 128x128, 118528
+CONMOD31, 128x128, 62932
+spliter
+Time: Sun Feb  4 03:27:45 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+CONMOD31, 128x128, 146972
+CONMOD31, 128x128, 146992
+spliter
+Time: Sun Feb  4 03:55:44 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+CONMOD31, 256x256, 482772
+CONMOD31, 256x256, 185138
+spliter
+Time: Sun Feb  4 03:55:52 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CONMOD31, 256x256, 482306
+CONMOD31, 256x256, 204740
+spliter
+Time: Sun Feb  4 03:56:00 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+CONMOD31, 256x256, 593518
+CONMOD31, 256x256, 593254
+spliter
+Time: Sun Feb  4 04:24:01 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+CONMOD31, 512x512, 1942136
+CONMOD31, 512x512, 713066
+spliter
+Time: Sun Feb  4 04:24:09 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CONMOD31, 512x512, 1938492
+CONMOD31, 512x512, 722736
+spliter
+Time: Sun Feb  4 04:24:17 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+CONMOD31, 512x512, 2384096
+CONMOD31, 512x512, 2382980
+spliter
+Time: Sun Feb  4 04:53:01 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+CONMOD31, 1024x1024, 7808636
+CONMOD31, 1024x1024, 2799884
+spliter
+Time: Sun Feb  4 04:53:09 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+CONMOD31, 1024x1024, 7785042
+CONMOD31, 1024x1024, 2688658
+spliter
+Time: Sun Feb  4 04:53:17 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+CONMOD31, 1024x1024, 9570472
+CONMOD31, 1024x1024, 9567672

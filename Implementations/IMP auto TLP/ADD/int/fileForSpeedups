@@ -1,0 +1,185 @@
+spliter
+Time: Sun Feb  4 03:15:36 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+ADD1, 128x128, 18274
+ADD1, 128x128, 5900
+ADD2, 128x128, 8158
+ADD3, 128x128, 6016
+spliter
+Time: Sun Feb  4 03:15:52 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+ADD1, 128x128, 18960
+ADD1, 128x128, 6256
+ADD2, 128x128, 7994
+ADD3, 128x128, 5648
+spliter
+Time: Sun Feb  4 03:16:09 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+ADD1, 128x128, 18438
+ADD1, 128x128, 5932
+ADD2, 128x128, 8056
+ADD3, 128x128, 5798
+spliter
+Time: Sun Feb  4 03:43:53 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+ADD1, 256x256, 74860
+ADD1, 256x256, 35512
+ADD2, 256x256, 40968
+ADD3, 256x256, 36170
+spliter
+Time: Sun Feb  4 03:44:09 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+ADD1, 256x256, 77022
+ADD1, 256x256, 35916
+ADD2, 256x256, 41024
+ADD3, 256x256, 36208
+spliter
+Time: Sun Feb  4 03:44:26 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+ADD1, 256x256, 76252
+ADD1, 256x256, 35948
+ADD2, 256x256, 40736
+ADD3, 256x256, 36234
+spliter
+Time: Sun Feb  4 04:12:08 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+ADD1, 512x512, 300988
+ADD1, 512x512, 147166
+ADD2, 512x512, 171422
+ADD3, 512x512, 147996
+spliter
+Time: Sun Feb  4 04:12:23 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+ADD1, 512x512, 309944
+ADD1, 512x512, 147938
+ADD2, 512x512, 172776
+ADD3, 512x512, 149638
+spliter
+Time: Sun Feb  4 04:12:40 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+ADD1, 512x512, 308662
+ADD1, 512x512, 149326
+ADD2, 512x512, 173524
+ADD3, 512x512, 149496
+spliter
+Time: Sun Feb  4 04:40:29 +0330 2018
+icc
+-D _GNU_SOURCE -O3 -xHOST
+-no-vec
+ADD1, 1024x1024, 1867592
+ADD1, 1024x1024, 1355114
+ADD2, 1024x1024, 1765178
+ADD3, 1024x1024, 1715156
+spliter
+Time: Sun Feb  4 04:40:45 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+ADD1, 1024x1024, 1910634
+ADD1, 1024x1024, 1739020
+ADD2, 1024x1024, 1759252
+ADD3, 1024x1024, 1725858
+spliter
+Time: Sun Feb  4 04:41:01 +0330 2018
+clang
+-D _GNU_SOURCE -O3 -march=native
+-fno-vectorize -fno-slp-vectorize
+ADD1, 1024x1024, 1901148
+ADD1, 1024x1024, 1721436
+ADD2, 1024x1024, 1771594
+ADD3, 1024x1024, 1721406
+spliter
+Time: Sat Oct 13 23:08:34 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -floop-parallelize-all -ftree-parallelize-loops=8 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize
+ADD1, 128x128, 57090808
+ADD1, 128x128, 62231438
+ADD2, 128x128, 62114786
+ADD3, 128x128, 6828
+spliter
+Time: Sat Oct 13 23:09:26 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -floop-parallelize-all -ftree-parallelize-loops=8 -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all -ftree-parallelize-loops=8
+ADD1, 128x128, 57063474
+ADD1, 128x128, 57043456
+ADD2, 128x128, 59616622
+ADD3, 128x128, 6128
+spliter
+Time: Sat Oct 13 23:10:21 +0330 2018
+gcc
+-D _GNU_SOURCE -O3 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD1, 128x128, 26138
+ADD1, 128x128, 26138
+spliter
+Time: Sat Oct 13 23:10:43 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD1, 128x128, 26140
+ADD1, 128x128, 26140
+ADD2, 128x128, 8336
+ADD3, 128x128, 5726
+spliter
+Time: Sat Oct 13 23:11:19 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD2, 128x128, 8114
+ADD3, 128x128, 5826
+spliter
+Time: Sat Oct 13 23:12:07 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD2, 128x128, 8092
+spliter
+Time: Sat Oct 13 23:12:17 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+spliter
+Time: Sat Oct 13 23:15:01 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD2, 4096x4096, 36103168
+spliter
+Time: Sat Oct 13 23:15:14 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+spliter
+Time: Sat Oct 13 23:15:29 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD2, 4096x4096, 35689782
+ADD3, 4096x4096, 34982550
+spliter
+Time: Sat Oct 13 23:15:58 +0330 2018
+gcc
+-D _GNU_SOURCE -O2 -floop-parallelize-all -march=native
+-fno-tree-vectorize -fno-tree-slp-vectorize -floop-parallelize-all
+ADD2, 14096x14096, 354706668
+ADD3, 14096x14096, 396533560
